@@ -16,6 +16,9 @@ valve output using a TON timer in Structured Text (IEC 61131-3).
 | Delay | TON | 5 s on-delay timer |
 
 ## Code
+## Code
+Implementation (ST):
+```st
 Implementation (ST):
 ```st
 Delay(IN := Start_Btn, PT := T#5S);
@@ -23,11 +26,10 @@ Valve_Out := Delay.Q;
 How to run
 
     Open CIP_Plant.project in CODESYS V3.5.
-
     Build and download to a soft PLC or the CODESYS Control Win simulator.
 
-    Toggle Start_Btn and observe Valve_Out after 5 seconds.
+## Source code
 
-Disclaimer
-
-Educational project. Not safety-rated. Do not use as-is in real machinery.
+- Human-readable ST: [`exports/PLC_PRG.st`](exports/PLC_PRG.st)
+- PLCopenXML export: [`exports/CIP_Plant.xml`](exports/CIP_Plant.xml)
+- CODESYS binary project: `CIP_Plant.project`
