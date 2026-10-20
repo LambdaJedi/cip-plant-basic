@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP22 Patch 4" creationDateTime="2026-10-20T09:37:26.1737943" />
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP22 Patch 4" creationDateTime="2026-10-20T09:44:48.4195395" />
   <contentHeader name="CIP_Plant.project" modificationDateTime="2026-10-20T09:30:51.2284783">
     <coordinateInfo>
       <fbd>
@@ -40,6 +40,19 @@
                 <derived name="TON" />
               </type>
             </variable>
+            <addData>
+              <data name="http://www.3s-software.com/plcopenxml/interfaceasplaintext" handleUnknown="implementation">
+                <InterfaceAsPlainText>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">PROGRAM PLC_PRG
+VAR
+	Start_Btn : BOOL;
+	Valve_Out : BOOL;
+Delay : TON;
+END_VAR
+</xhtml>
+                </InterfaceAsPlainText>
+              </data>
+            </addData>
           </localVars>
         </interface>
         <body>
@@ -50,6 +63,17 @@ Valve_Out := Delay.Q;
           </ST>
         </body>
         <addData>
+          <data name="http://www.3s-software.com/plcopenxml/interfaceasplaintext" handleUnknown="implementation">
+            <InterfaceAsPlainText>
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">PROGRAM PLC_PRG
+VAR
+	Start_Btn : BOOL;
+	Valve_Out : BOOL;
+Delay : TON;
+END_VAR
+</xhtml>
+            </InterfaceAsPlainText>
+          </data>
           <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
             <ObjectId>522dd5bc-f910-45da-b009-b2d09fa4fe2c</ObjectId>
           </data>
