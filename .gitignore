@@ -1,0 +1,18 @@
+# CODESYS build / cache / per-user files
+*.opt
+*.~u
+*.~*
+*.precompilecache
+*.compileinfo
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo_guids
+*_CompileInfo/
+*.bak
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
