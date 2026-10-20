@@ -33,3 +33,8 @@ How to run
 - Human-readable ST: [`exports/PLC_PRG.st`](exports/PLC_PRG.st)
 - PLCopenXML export: [`exports/CIP_Plant.xml`](exports/CIP_Plant.xml)
 - CODESYS binary project: `CIP_Plant.project`
+## Demo
+
+![Visualization running](screenshots/visualization.png)
+
+Press `Start_Btn`; after 5 seconds `Valve_Out` turns on and the lamp lights up.
